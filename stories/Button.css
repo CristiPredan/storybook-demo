@@ -1,0 +1,46 @@
+
+.btn--small {
+  width: 100%;
+  max-width: 105px;
+  height: 36px;
+  line-height: 20px;
+  background-color: #7F56D9;
+  border-color: #7F56D9;
+  font-size: 14px;
+  color: #fff;
+  border-radius: 7px;
+  padding: 0 10px;
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+  border-style: unset;
+}
+
+.btn--medium {
+  width: 100%;
+  max-width: 144px;
+  height: 44px;
+  line-height: 20px;
+  background-color: #7F56D9;
+  border-color: #7F56D9;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 7px;
+  padding: 0 10px;
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+  border-style: unset;
+}
+
+
+.btn--large {
+  width: 100%;
+  max-width: 155px;
+  height: 60px;
+  line-height: 20px;
+  background-color: #7F56D9;
+  border-color: #7F56D9;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 7px;
+  padding: 0 10px;
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+  border-style: unset;
+}

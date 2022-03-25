@@ -9,10 +9,19 @@ const Template = ({ label, ...args }) => {
   return createButton({ label, ...args });
 };
 
+export const ExtraSmall = Template.bind({});
+ExtraSmall.args = {
+  size: "extrasmall",
+  label: "Extrasm",
+  onClick() {
+    alert("ExtraSmall button");
+  },
+};
+
 export const Small = Template.bind({});
 Small.args = {
   size: "small",
-  label: "small btn",
+  label: "Small",
   onClick() {
     alert("Small button");
   },
@@ -21,7 +30,7 @@ Small.args = {
 export const Medium = Template.bind({});
 Medium.args = {
   size: "medium",
-  label: "medium btn",
+  label: "Medium",
   onClick() {
     alert("Medium buton");
   },
@@ -30,8 +39,17 @@ Medium.args = {
 export const Large = Template.bind({});
 Large.args = {
   size: "large",
-  label: "large btn",
+  label: "Large",
   onClick() {
     alert("Large button");
+  },
+};
+
+export const ExtraLarge = Template.bind({});
+ExtraLarge.args = {
+  size: "extralarge",
+  label: "Extralarge",
+  onClick() {
+    alert("ExtraLarge button");
   },
 };

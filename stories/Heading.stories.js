@@ -1,5 +1,5 @@
 import { createHeading } from "./Heading";
-import { createButton } from "./Button";
+// import { createButton } from "./Button";
 
 export default {
   title: "Components/Heading",
@@ -31,4 +31,76 @@ H3.args = {
   fontSize: "24px",
   text: "Open the text style edit menu",
   color: "#101828",
+};
+
+export const InterThin = Template.bind({});
+InterThin.args = {
+  size: 2,
+  fontSize: "30px",
+  text: "The Outermost House by Henry Beston",
+  weight: "thin",
+};
+
+export const InterExtraLight = Template.bind({});
+InterExtraLight.args = {
+  size: 2,
+  fontSize: "30px",
+  text: "The Outermost House by Henry Beston",
+  weight: "extralight",
+};
+
+export const InterLight = Template.bind({});
+InterLight.args = {
+  size: 2,
+  fontSize: "30px",
+  text: "The Outermost House by Henry Beston",
+  weight: "light",
+};
+
+export const InterRegular = Template.bind({});
+InterRegular.args = {
+  size: 2,
+  fontSize: "30px",
+  text: "The Outermost House by Henry Beston",
+  weight: "regular",
+};
+
+export const InterMedium = Template.bind({});
+InterMedium.args = {
+  size: 2,
+  fontSize: "30px",
+  text: "The Outermost House by Henry Beston",
+  weight: "medium",
+};
+
+export const InterSemiBold = Template.bind({});
+InterSemiBold.args = {
+  size: 2,
+  fontSize: "30px",
+  text: "The Outermost House by Henry Beston",
+  weight: "semibold",
+};
+
+export const InterBold = Template.bind({});
+InterBold.args = {
+  size: 2,
+  fontSize: "30px",
+  text: "The Outermost House by Henry Beston",
+  weight: "bold",
+};
+
+export const InterExtraBold = Template.bind({});
+InterExtraBold.args = {
+  size: 2,
+  fontSize: "30px",
+  text: "The Outermost House by Henry Beston",
+  weight: "extrabold",
+};
+
+export const InterBlack = Template.bind({});
+InterBlack.args = {
+  size: 2,
+  fontSize: "30px",
+  text: "The Outermost House by Henry Beston",
+  weight: "black",
 };
